@@ -1,0 +1,111 @@
+
+.faq-body{
+background-color: black;
+
+}
+.navbar__brand {
+  width: 100px;
+  height: 100%;
+}
+
+.brand__logo {
+  width: 100%;
+  height: 100%;
+}
+.heading-main{
+  color: white;
+  font-weight: 600;
+  font-size: 3rem;
+  padding-top: 50px;
+  padding-left: 40px;
+}
+.topic_heading{
+  color: white;
+  font-weight: 600;
+  font-size: 2rem;
+  padding-left: 40px;
+}
+.image_section{
+  width: 50%;
+  height: 50%;
+  padding-left: 60px;
+
+}
+.text_section{
+  color: white;
+  padding-left: 40px;
+  padding-right: 60px;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  font-size: 1.2rem;
+}
+.horizontal_line{
+  margin-left: 10%;
+  margin-right: 8%;
+  margin-top: 65px;
+  margin-bottom: 75px;
+}
+.btn-outline-danger{
+  margin-top: 50px;
+  margin-left: 30px;
+}
+
+* {
+  box-sizing: border-box;
+}
+.text_color{
+  color: white;
+}
+.columns {
+  float: left;
+  width: 33.3%;
+  padding: 8px;
+  padding-top: 100px
+}
+.price {
+  list-style-type: none;
+  border: 1px solid #564d4d;
+  margin: 0;
+  padding: 0;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.amount{
+  color: red;
+}
+.price .header {
+  background-color: #111;
+  font-size: 25px;
+}
+.price li {
+  border-bottom: 1px solid #564d4d;
+  padding: 20px;
+  text-align: center;
+}
+.price .grey {
+  background-color: ;
+  font-size: 20px;
+}
+.button {
+  background-color: red;
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+}
+.button:hover {
+  background-color: #DC3535;
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+}
+@media only screen and (max-width: 600px) {
+  .columns {
+    width: 100%;
+  }
+}
